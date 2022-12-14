@@ -19,7 +19,7 @@ h1{
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-h2{font-size: 2.5em;}
+
 h3{font-size: 2em;}
 h4{font-size: 1.25em;}
 
@@ -91,6 +91,40 @@ header a:hover{
     color: crimson;
 }
 
+    /* Banner */
+
+#banner-galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 86vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/media/bannergraf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#banner-galeria h1{
+    color: rgba(253, 239, 239, 0.800);
+    text-shadow: #151618;
+}
+
+h2{
+    text-align: center;
+    text-shadow: #151618;
+    color: gainsboro;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+
     /* Galería */
 
 .linea{
@@ -108,6 +142,11 @@ header a:hover{
     grid-gap: 10px;
     padding: 40px;
     overflow: hidden;
+    
+}
+
+#galeria-bg{
+    background-color: #151618;
 }
 
 .galeria img{
