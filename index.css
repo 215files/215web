@@ -208,6 +208,10 @@ header a:hover{
     ,url("media/rec_audio.jpg");
 }
 
+.enlace {
+    color: white;
+}
+
     /* Sección contacto y footer */
 
 #contacto .container{
